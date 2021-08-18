@@ -1,0 +1,33 @@
+<h4>Edit Record: Enter Student ID (sid)</h4>
+        
+<div class="form-group">
+    <label for="sid">Student ID</label>
+    <input type="text" class="form-control" id="sid" ng-model="sid">
+</div>
+
+<button type="button" class="btn btn-primary" ng-click="getStudent()">Get Info</button>
+<br><br>
+
+
+<div class="form-group">
+    <label for="last_name">Last Name</label>
+    <input type="text" class="form-control" id="last_name" ng-model="lastname" readonly>
+</div>
+<div class="form-group">
+    <label for="major">Major</label>
+    <input type="text" class="form-control" id="make" ng-model="major">
+</div>
+<div class="form-group">
+    <label for="midterm">Midterm</label>
+    <input type="text" class="form-control" id="midterm" ng-model="midterm">
+</div>
+<div class="form-group">
+    <label for="final">Final</label>
+    <input type="text" class="form-control" id="final" ng-model="final">
+</div>
+
+<button type="button" class="btn btn-primary" ng-click="editStudent()">Update</button> 
+ <br><br>   
+<p>{{status}}</p>
+
+<br><br> 
